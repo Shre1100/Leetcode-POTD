@@ -5,6 +5,8 @@
 // After the process, answer[i] is the maximum number of points you can get. Note that for each query you are allowed to visit the same cell multiple times.
 // Return the resulting array answer.
 
+//Concept used--> priority queue and sorting
+
 class Solution {
 public:
     vector<int> maxPoints(vector<vector<int>>& grid, vector<int>& queries) {
